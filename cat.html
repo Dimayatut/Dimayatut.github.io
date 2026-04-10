@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Кот</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    h1 { color: #7c6fff; margin-bottom: 20px; font-size: 20px; letter-spacing: 2px; }
+  </style>
+</head>
+<body>
+  <h1>🐱 кот.svg</h1>
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="340" height="390">
+
+    <!-- Тень -->
+    <ellipse cx="200" cy="435" rx="90" ry="16" fill="#000" opacity="0.3"/>
+
+    <!-- Хвост -->
+    <path d="M 248 340 Q 340 360 330 265 Q 324 220 292 235"
+          stroke="#e8945a" stroke-width="22" fill="none" stroke-linecap="round"/>
+    <path d="M 248 340 Q 340 360 330 265 Q 324 220 292 235"
+          stroke="#f5b07a" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+    <!-- Тело -->
+    <ellipse cx="200" cy="300" rx="82" ry="90" fill="#e8945a"/>
+
+    <!-- Полосы на теле -->
+    <path d="M 145 270 Q 200 255 255 270" stroke="#d4783e" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M 138 295 Q 200 278 262 295" stroke="#d4783e" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M 140 320 Q 200 305 260 320" stroke="#d4783e" stroke-width="4" fill="none" opacity="0.5"/>
+
+    <!-- Живот -->
+    <ellipse cx="200" cy="308" rx="44" ry="60" fill="#fde8cc"/>
+
+    <!-- Голова -->
+    <circle cx="200" cy="168" r="78" fill="#e8945a"/>
+
+    <!-- Левое ухо внешнее -->
+    <polygon points="132,122 148,52 186,115" fill="#e8945a"/>
+    <!-- Левое ухо внутреннее -->
+    <polygon points="142,116 154,68 179,112" fill="#ffaabb"/>
+
+    <!-- Правое ухо внешнее -->
+    <polygon points="214,115 252,52 268,122" fill="#e8945a"/>
+    <!-- Правое ухо внутреннее -->
+    <polygon points="221,112 246,68 258,116" fill="#ffaabb"/>
+
+    <!-- Полосы на лбу -->
+    <path d="M 178 108 Q 200 100 222 108" stroke="#d4783e" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M 182 120 Q 200 113 218 120" stroke="#d4783e" stroke-width="3" fill="none" opacity="0.6"/>
+    <path d="M 185 132 Q 200 126 215 132" stroke="#d4783e" stroke-width="2.5" fill="none" opacity="0.5"/>
+
+    <!-- Левый глаз -->
+    <ellipse cx="172" cy="163" rx="18" ry="20" fill="#1a1a2e"/>
+    <ellipse cx="172" cy="163" rx="10" ry="15" fill="#0a0a18"/>
+    <circle cx="177" cy="157" r="5" fill="white"/>
+    <circle cx="179" cy="156" r="2" fill="white" opacity="0.6"/>
+
+    <!-- Правый глаз -->
+    <ellipse cx="228" cy="163" rx="18" ry="20" fill="#1a1a2e"/>
+    <ellipse cx="228" cy="163" rx="10" ry="15" fill="#0a0a18"/>
+    <circle cx="233" cy="157" r="5" fill="white"/>
+    <circle cx="235" cy="156" r="2" fill="white" opacity="0.6"/>
+
+    <!-- Нос -->
+    <polygon points="200,189 192,200 208,200" fill="#ff6b8a"/>
+    <line x1="200" y1="189" x2="200" y2="184" stroke="#d4783e" stroke-width="1.5"/>
+
+    <!-- Рот -->
+    <path d="M 192,200 Q 200,212 208,200" stroke="#cc3355" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Усы левые -->
+    <line x1="118" y1="190" x2="186" y2="196" stroke="#fff8" stroke-width="1.8"/>
+    <line x1="118" y1="200" x2="186" y2="201" stroke="#fff8" stroke-width="1.8"/>
+    <line x1="120" y1="210" x2="186" y2="206" stroke="#fff8" stroke-width="1.8"/>
+
+    <!-- Усы правые -->
+    <line x1="282" y1="190" x2="214" y2="196" stroke="#fff8" stroke-width="1.8"/>
+    <line x1="282" y1="200" x2="214" y2="201" stroke="#fff8" stroke-width="1.8"/>
+    <line x1="280" y1="210" x2="214" y2="206" stroke="#fff8" stroke-width="1.8"/>
+
+    <!-- Левая лапа -->
+    <ellipse cx="155" cy="378" rx="36" ry="24" fill="#e8945a"/>
+    <ellipse cx="142" cy="387" rx="10" ry="7" fill="#d4783e"/>
+    <ellipse cx="155" cy="390" rx="10" ry="7" fill="#d4783e"/>
+    <ellipse cx="168" cy="387" rx="10" ry="7" fill="#d4783e"/>
+
+    <!-- Правая лапа -->
+    <ellipse cx="245" cy="378" rx="36" ry="24" fill="#e8945a"/>
+    <ellipse cx="232" cy="387" rx="10" ry="7" fill="#d4783e"/>
+    <ellipse cx="245" cy="390" rx="10" ry="7" fill="#d4783e"/>
+    <ellipse cx="258" cy="387" rx="10" ry="7" fill="#d4783e"/>
+
+  </svg>
+
+</body>
+</html>
